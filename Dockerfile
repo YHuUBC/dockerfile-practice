@@ -3,4 +3,5 @@
 
 FROM jupyter/scipy-notebook:85f615d5cafa
   
-RUN apt-get install r-base r-base-dev -y
+RUN conda install -y python=3.10
+
